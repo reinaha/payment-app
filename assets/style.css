@@ -1,0 +1,357 @@
+/*blue : #4274DD
+green : #69CD57
+light gray : #C6C6C6
+dark gray : #545454
+dark white : #F7F6F2*/
+
+/*#09 JUN 2017 */
+
+body {
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Poppins', sans-serif;
+}
+
+#wrapper{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 12em 0;
+}
+
+#box-wrapper{
+	box-shadow: 2px 1px 40px #C6C6C6;
+	width: 23em;
+	border: thin #F7F6F2 solid;
+
+	background-image: url(bg10.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+#head-box{
+	/*border: thin #4274DD solid;*/
+	/*background-color: #4274DD;*/
+
+	padding: 0.1em;
+	background-image: url(bg3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+
+	border-top-right-radius: 0.3em;
+	border-top-left-radius: 0.3em;
+	color: #fff;
+	text-align: center;
+}
+
+	#head-box h1 {
+		font-weight: lighter;
+		font-size: 1.5em;
+		letter-spacing: 0.05em;
+		margin: 0.8em;
+	}
+
+#body-box{
+}
+
+	#body-box #card-imgs{
+		display: flex;
+		justify-content: space-around;
+		padding: 2em 0.4em 2em 0.4em;
+
+		background-image: url(bg10.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		cursor: pointer;
+		
+	}
+
+		#body-box #card-imgs div {
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+			height: 2.7em;
+			width: 4.2em;
+			border-radius: 0.2em;
+			position: relative;
+
+		}
+
+		#body-box #card-imgs #card1 {
+			background-image: url(visa.jpg);
+			/*opacity: 0.2;*/
+		}
+
+		#body-box #card-imgs #card2 {
+			background-image: url(mastercard.jpg);
+		}
+
+		#body-box #card-imgs #card3 {
+			background-image: url(paypal.jpg);
+		}
+
+/*		#body-box #card-imgs div span{
+			background-image: url(check.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+			height: 1.3em;
+			width: 1.3em;
+			position: absolute;
+			top: -0.5em;
+			left: 3.3em;
+			}*/
+
+
+	#body-box form {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		margin-top: 1em;
+		
+	}
+
+		#body-box form #group-wrapper{
+			margin: 0 2em 0 2em;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+			#body-box form #group-wrapper #group{
+			position: relative;
+			}
+
+			#body-box form #group-wrapper #group label{
+				color: #C6C6C6;
+				text-transform: uppercase;
+				font-size: 0.7em;
+				letter-spacing: 0.05em;
+				margin-bottom: 1.1em;
+				position: relative;
+			}
+
+			#body-box form #group-wrapper #group input{
+				height: 2.3em;
+				font-size: 0.8em;
+				color: #545454;
+				font-weight: 600;
+				border: thin #F7F6F2 solid;
+				
+			}
+
+
+			#body-box form #group-wrapper #group:nth-child(1){
+				flex: 0 0 100%;
+				display: flex;
+				flex-wrap: wrap;
+				margin-bottom: 2em;
+			}
+
+				#body-box form #group-wrapper #group:nth-child(1) label{
+				flex: 0 0 100%;
+				}
+
+				#body-box form #group-wrapper #group:nth-child(1) input{
+				flex: 0 0 98%;
+				
+
+				}
+
+			#body-box form #group-wrapper #group:nth-child(2){
+		
+				flex: 0 0 47%;
+				margin-right: 18px;
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+				#body-box form #group-wrapper #group:nth-child(2) label{
+				flex: 0 0 100%;
+				}
+
+				#body-box form #group-wrapper #group:nth-child(2) input{
+				flex: 0 0 100%;
+				}
+
+			#body-box form #group-wrapper #group:nth-child(3){
+			
+				flex: 0 0 47%;
+				display: flex;
+				flex-wrap: wrap;
+			}
+
+				#body-box form #group-wrapper #group:nth-child(3) label{
+				flex: 0 0 100%;
+				}
+
+				#body-box form #group-wrapper #group:nth-child(3) input{
+				flex: 0 0 97%;
+				}
+
+			#body-box form #group-wrapper #group:nth-child(4){
+			
+				flex: 0 0 100%;
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 2em;
+			}
+
+				#body-box form #group-wrapper #group:nth-child(4) label{
+				flex: 0 0 100%;
+				}
+
+				#body-box form #group-wrapper #group:nth-child(4) input{
+				flex: 0 0 98%;
+
+				}
+
+			#body-box form #group-wrapper #group:nth-child(2) input{
+				width: 97%;
+			}
+			#body-box form #group-wrapper #group:nth-child(3) input{
+				width: 97%;
+			}
+
+
+			#body-box form #group-wrapper #group .messageIcon{
+				/*background-image: url(check2.png);*/
+				/*background-size: contain;
+				background-repeat: no-repeat;
+				height: 1.3em;
+				width: 1.3em;
+				position: absolute;
+				top:2.4em;
+				left:96%;*/
+			}
+
+			#body-box form #group-wrapper #group:nth-child(2) .messageIcon{
+				left:92%;
+			}
+			#body-box form #group-wrapper #group:nth-child(3) .messageIcon{
+				left:92%;
+			}
+
+
+
+		#body-box form .form-button{
+		width: 100%;
+		margin-top: 3em;
+		display: flex;
+		justify-content: center;
+		border-bottom-right-radius: 0.3em;
+		border-bottom-left-radius: 0.3em;
+		
+
+		}
+
+			#body-box form .form-button input{
+				background-color: #69CD57;
+				/*background-image: url(bg3.png);
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: top;*/
+
+				width: 100%;
+				border: none;
+				padding: 1.3em 0;
+				color: #fff;
+				text-transform: uppercase;
+				border-bottom-right-radius: 0.3em;
+				border-bottom-left-radius: 0.3em;
+				font-size: 1.2em;
+				letter-spacing: 0.05em;
+				font-weight: 400;
+			}
+
+	#body-box form .form-group3 label i {
+		color: #4274DD;
+	}
+
+
+
+/*-----------------For JS------------------*/
+
+
+/*------For Card-------*/
+
+.cardOppasity{
+	opacity: 0.2;
+}
+
+.cardOppasityC{
+	opacity: 1;
+}
+
+
+.cardMessageO{
+	background-image: url(check.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 1.3em;
+	width: 1.3em;
+	position: absolute;
+	top: -0.5em;
+	left: 3.3em;
+}
+
+
+/*-------For Form--------*/
+.fontRed {
+	color: #FC003F;
+}
+
+.messageIcon1 {
+	background-image: url(check.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 1.3em;
+	width: 1.3em;
+	position: absolute;
+	right: -6px;
+	top:2.4em;
+}
+
+.messageIcon2 {
+	background-image: url(check2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 1.3em;
+	width: 1.3em;
+	position: absolute;
+	right: -6px;
+	top:2.4em;
+/*	left:90%;*/
+	/*-webkit-transform: translate(100%, 100%); */
+	
+}
+
+.messageW {
+	font-size: 0.6em;
+	color: #FC003F;
+	font-weight: 600;
+	padding: 0.3em 0 0 0.2em;
+	letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+/*#wrapper #bo-wrapper #body-box #card-imgs #card1{
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+*/
+/*
+#body-box #card-imgs #card1 {
+			opacity: 0.2;
+		}
+*/
+
+

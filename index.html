@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/base-min.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<title>Document</title>
+</head>
+
+<body>
+
+	<div id="wrapper">
+		
+		<div id="box-wrapper">
+			
+			<div id="head-box">
+				<h1>Payment Methods</h1>
+			</div>
+
+			<div id="body-box">
+
+				<div id="card-imgs">
+					<div id="card1"><span id="cardMessage"></span></div> 
+					<div id="card2"><span id="cardMessage"></span></div> 
+					<div id="card3"><span id="cardMessage"></span></div> 
+				</div>
+
+				<form action="" method="post" class="pure-form pure-form-aligned">
+					<div id="group-wrapper">
+						<div class="form-group1" id="group">
+							<label for="#">Card Number</label>
+							<input type="text" name="CardNumber" id="cardNumber">
+							<span id="cardNumberMessage" class="messageIcon"></span>
+							<span id="messageW"></span>
+						</div>
+						
+						<div class="form-group2" id="group">
+							<label for="#">Expiration Date</label>
+							<input type="text" name="CardDate" id="cardDate">
+							<span id="cardDateMessage" class="messageIcon"></span>
+							<span id="messageW"></span>
+						</div>
+						
+						<div class="form-group3" id="group">
+							<label for="#">Cvv <i class="fa fa-question-circle" aria-hidden="true"></i></label>
+							<input type="text" name="CVV" id="cvv">
+							<span id="cvvMessage" class="messageIcon"></span>
+							<span id="messageW"></span>
+							
+						</div>
+						
+						<div class="form-group4" id="group">
+							<label for="#">Card Holder's Name</label>
+							<input type="text" name="CardHolderName" id="cardHolderName">
+							<span id="holderNameMessage" class="messageIcon"></span>
+							<span id="messageW"></span>
+						</div>
+					</div>
+
+					<div class="form-button">
+						<input type="submit" id="submit" value="confirm payment">
+					</div>
+
+				</form>
+				
+			</div>
+
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="assets/javascript.js"></script>
+
+	
+</body>
+</html>
